@@ -1,6 +1,7 @@
 require 'pry'
 
 extend Memorable 
+include Paramable 
 
 class Song
   attr_accessor :name
