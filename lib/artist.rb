@@ -1,6 +1,8 @@
 require 'pry'
 
 extend Memorable 
+extend Memorable::ClassMethods
+include Memorable::InstanceMethods
 include Paramable 
 
 class Artist
