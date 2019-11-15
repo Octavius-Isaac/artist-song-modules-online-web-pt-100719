@@ -1,6 +1,7 @@
 require 'pry'
 
 extend Memorable 
+include Paramable 
 
 class Artist
   attr_accessor :name
